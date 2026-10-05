@@ -1,0 +1,6544 @@
+{
+  "Trevize": {
+    "frequence": 900,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 301,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 599,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Pelorat": {
+    "frequence": 495,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 182,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 313,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Seldon": {
+    "frequence": 280,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 71,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 54,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 95,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 51,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 9,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Mulet": {
+    "frequence": 265,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 107,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 42,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 112,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Gendibal": {
+    "frequence": 197,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 195,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Janov": {
+    "frequence": 152,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 64,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 88,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Fallom": {
+    "frequence": 133,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 133,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Hardin": {
+    "frequence": 126,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 116,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 6,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Golan": {
+    "frequence": 121,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 49,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 72,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Bayta": {
+    "frequence": 118,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 109,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 8,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Mallow": {
+    "frequence": 117,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 107,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 7,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Toran": {
+    "frequence": 110,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 108,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Compor": {
+    "frequence": 98,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 90,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 8,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Seychelle": {
+    "frequence": 97,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 92,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Channis": {
+    "frequence": 85,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 85,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Pritcher": {
+    "frequence": 85,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 35,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 50,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Darell": {
+    "frequence": 80,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 10,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 70,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Novi": {
+    "frequence": 76,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 76,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Branno": {
+    "frequence": 74,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 71,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Kalgan": {
+    "frequence": 74,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 29,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 42,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Barr": {
+    "frequence": 72,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 10,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 62,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Bander": {
+    "frequence": 65,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 65,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Hari": {
+    "frequence": 59,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 19,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 9,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 19,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 12,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Riose": {
+    "frequence": 58,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 57,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Arcadia": {
+    "frequence": 57,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 57,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Hari Seldon": {
+    "frequence": 57,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 18,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 9,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 18,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 12,
+        "taille": 2
+      }
+    ],
+    "score": 8
+  },
+  "Devers": {
+    "frequence": 55,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 54,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Ebling": {
+    "frequence": 54,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 47,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Munn": {
+    "frequence": 54,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 51,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Pel": {
+    "frequence": 54,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 14,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 40,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Anthor": {
+    "frequence": 51,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 51,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Gaal": {
+    "frequence": 50,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 49,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Comporellon": {
+    "frequence": 46,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 43,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Delarmi": {
+    "frequence": 43,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 43,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Far": {
+    "frequence": 41,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 11,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 25,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Kodell": {
+    "frequence": 41,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 41,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Far Star": {
+    "frequence": 40,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 11,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 24,
+        "taille": 2
+      }
+    ],
+    "score": 8
+  },
+  "Hiroko": {
+    "frequence": 40,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 40,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Magnifico": {
+    "frequence": 40,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 40,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Ponyets": {
+    "frequence": 38,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 38,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Sutt": {
+    "frequence": 38,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 38,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Dom": {
+    "frequence": 37,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 28,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 9,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Ebling Mis": {
+    "frequence": 36,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 29,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 5,
+        "taille": 2
+      }
+    ],
+    "score": 8
+  },
+  "Pirenne": {
+    "frequence": 35,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 35,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Trev": {
+    "frequence": 35,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 23,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 12,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Wienis": {
+    "frequence": 34,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 34,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Callia": {
+    "frequence": 30,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 30,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Orateurs": {
+    "frequence": 30,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 29,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Quintesetz": {
+    "frequence": 29,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 29,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Solaria": {
+    "frequence": 29,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 29,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Tazenda": {
+    "frequence": 29,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 29,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Homir": {
+    "frequence": 28,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 28,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Randu": {
+    "frequence": 28,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 28,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Indbur": {
+    "frequence": 26,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 23,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Jemby": {
+    "frequence": 26,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 26,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Excellence": {
+    "frequence": 25,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 14,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Lee": {
+    "frequence": 25,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 21,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Daneel": {
+    "frequence": 24,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 24,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Tenez": {
+    "frequence": 24,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 9,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Twer": {
+    "frequence": 24,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 24,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Galaxia": {
+    "frequence": 23,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 22,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Mondes": {
+    "frequence": 23,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 20,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Attendez": {
+    "frequence": 22,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 7,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 8,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Rufirant": {
+    "frequence": 22,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 22,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Sermak": {
+    "frequence": 21,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 21,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Lizalor": {
+    "frequence": 20,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 20,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Solariens": {
+    "frequence": 20,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 20,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Turbor": {
+    "frequence": 20,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 20,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Voyons": {
+    "frequence": 20,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 9,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 5
+  },
+  "Brodrig": {
+    "frequence": 19,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 19,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Gorov": {
+    "frequence": 19,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 19,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Palver": {
+    "frequence": 19,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 13,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Périphérie": {
+    "frequence": 19,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 12,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Solarien": {
+    "frequence": 19,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 19,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Deniador": {
+    "frequence": 18,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 18,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Fondations": {
+    "frequence": 18,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 7,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Kleise": {
+    "frequence": 18,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 18,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Semic": {
+    "frequence": 18,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 18,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Verisof": {
+    "frequence": 18,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 18,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Forell": {
+    "frequence": 17,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 17,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jael": {
+    "frequence": 17,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 17,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Lepold": {
+    "frequence": 17,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 17,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Shandess": {
+    "frequence": 17,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 17,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Golan Trevize": {
+    "frequence": 16,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 9,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 7,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Han": {
+    "frequence": 16,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 12,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Hober": {
+    "frequence": 16,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 9,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Kendray": {
+    "frequence": 16,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 16,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Aurora": {
+    "frequence": 15,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 15,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Hober Mallow": {
+    "frequence": 15,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 9,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Salvor": {
+    "frequence": 15,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 7,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Cléon": {
+    "frequence": 14,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 10,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Commason": {
+    "frequence": 14,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 14,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Han Pritcher": {
+    "frequence": 14,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 10,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Liono": {
+    "frequence": 14,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 14,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Majesté": {
+    "frequence": 14,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 9,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Stettin": {
+    "frequence": 14,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 14,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Sura": {
+    "frequence": 14,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 14,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Torie": {
+    "frequence": 14,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 14,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Alpha": {
+    "frequence": 13,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 13,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Citoyen": {
+    "frequence": 13,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 13,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Impériale": {
+    "frequence": 13,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 9,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Pherl": {
+    "frequence": 13,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 13,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Rossem": {
+    "frequence": 13,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 13,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Salvor Hardin": {
+    "frequence": 13,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 5,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Tr": {
+    "frequence": 13,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 6,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Bail": {
+    "frequence": 12,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 12,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Bay": {
+    "frequence": 12,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 12,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ecoutez-moi": {
+    "frequence": 12,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Fran": {
+    "frequence": 12,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 12,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Gaï'a": {
+    "frequence": 12,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 6,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Naturellement": {
+    "frequence": 12,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Supposons": {
+    "frequence": 12,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 7,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Terr": {
+    "frequence": 12,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 9,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Arkady": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Bail Channis": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 11,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Cinq Sours": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 11,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Croyez-vous": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Ducem": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 11,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ducem Barr": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 11,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Fondateurs": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 8,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Homir Munn": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 11,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Janov Pelorat": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 9,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Lentement": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Pelleas": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 11,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Sours": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 11,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Treviz": {
+    "frequence": 11,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Inchney": {
+    "frequence": 10,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 10,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jord": {
+    "frequence": 10,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 7,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Preem": {
+    "frequence": 10,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 9,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Seigneurs": {
+    "frequence": 10,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Sirius": {
+    "frequence": 10,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 10,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Stor": {
+    "frequence": 10,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 10,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Stor Gendibal": {
+    "frequence": 10,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 10,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Vo": {
+    "frequence": 10,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Dame Callia": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 9,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Dorwin": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 9,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Fondateur": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 7,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Hamiens": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 9,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Néotrantor": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 9,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pe": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Preem Palver": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 8,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Royaumes": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 8,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Senter": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 9,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Supposez": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Tre": {
+    "frequence": 9,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Asseyez-vous": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Bel Riose": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 7,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Bort": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 8,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Continuez": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Evidemment": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Fara": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 8,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Hamien": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 8,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Imaginez": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Indépendants": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Joi": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Majesté Impériale": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 7,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Marchands Indépendants": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 5,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Quatre Royaumes": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 7,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Sire": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 8,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Sura Novi": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 8,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Terriens": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Trevi": {
+    "frequence": 8,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Aporat": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Comporelliens": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Dirige": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Dornick": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 6,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Fo": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Gorm": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Karoll": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Lathan": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 6,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Lathan Devers": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 6,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Lefkin": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ovall": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pelleas Anthor": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 7,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Pillage": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Rappelez-vous": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Sec": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Seld": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Star's": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Thoobing": {
+    "frequence": 7,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 7,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Alphans": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Exact": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Fondati": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Gala": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Haut Rodric": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 6,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Isolât": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jaim": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Lens": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Li": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 5,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Maîtres": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Nébuleuse": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 4,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Oratrice": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Parlez": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Poli": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Renard": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Rodric": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Réfléchissez": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Scychellois": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 6,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Second Fondateur": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 6,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Star's End": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Trois Lois": {
+    "frequence": 6,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Appelez": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Asper": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Centauri": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Cléon II": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Connaissez-vous": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Da": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Ecoute": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Etait-ce": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Excusez-moi": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Fondat": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Gaal Dornick": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Galaxi": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Gardez": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Gaï": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Gen": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Gendiba": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Gilmer": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Isolais": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jaim Twer": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Jorane": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jorane Sutt": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Magnifiée": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Monolee": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Origines": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pardonnez-moi": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Parma": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pelora": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 4,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Personnellement": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Poochie": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ridicule": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Santanni": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Seconds": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Seconds Fondateurs": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 7
+  },
+  "Siwennien": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 5,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ter": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Vou": {
+    "frequence": 5,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 4
+  },
+  "Adieu": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Alpha Centauri": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Altesse": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ba": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Bayta Darell": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Bibliothèque Galactique": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Considérez": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Donnez-moi": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Etait-il": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Fonda": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 3,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Fondatio": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Franchement Golan": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Ga": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ga'ïa": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Karoll Rufirant": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Li Compor": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Mademoiselle": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mair": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Manifestement": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mule": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Premiers Orateurs": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Restez": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Retirez": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Robotique": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Secundo": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Seigneur Stettin": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Seldo": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Songez": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Terrien": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Voudriez-vous": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Yohan Lee": {
+    "frequence": 4,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 4,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Allons Janov": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Ankor Jael": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Assurément": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Attendons": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Cinquante": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Commodore Asper": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Conseiller Trevize": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Croyez-moi": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Emmenez-le": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Encyclopédistes": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Etant": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Etrange": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Fon": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Harlan": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Harlan Branno": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Hmm": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Homo": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Impériaux": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jord Commason": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Jord Parma": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Ka": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Lee Senter": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Locris": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Lorsqu'ils": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mallo": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Messieurs": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mitza Lizalor": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Mo": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mu": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Munn Li": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Munn Li Compor": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 3
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 3
+      }
+    ],
+    "score": 6
+  },
+  "Nouvelles Impériales": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Oratrice Delarmi": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Ovall Gri": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Pa": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pardon": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Parlons": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pelo": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Permettez-moi": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Peuh": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Peutêtre": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Po": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pr": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Quarante": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Quinze": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Radiant": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Sef Sermak": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 3,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Superstition": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Tertio": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Tou": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Tra": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Tran": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Trant": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Venant": {
+    "frequence": 3,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Aidez-moi": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ajoutez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Allons Golan": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Allons Joie": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Anacréoniens": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Anselme Haut": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Anselme Haut Rodric": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 3
+      }
+    ],
+    "score": 5
+  },
+  "Arkady Darell": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Asper Argo": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Aviez-vous": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Bel Arvardan": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Bibliothèque Impériale": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Bigre": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Bonnefoy": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Capitaine Pritcher": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Cassandre Seldon": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Choisissez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Com": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Comm": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Conclusion": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Dan": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ditesmoi": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Donnez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Décidément": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Détruits": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Elvett Semic": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Em": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Empir": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Encyclopedia": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Encyclopédie": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Eskel Gorov": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Etoile": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Fermez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "FOUDROYEE Trevize": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Foundation": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Galactica": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Hé": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jan": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jano": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Jean Bonnefoy": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Jord Fara": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Laissons-le": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Lewis Bort": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Loi Zéro": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Machinalement": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mad": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mademoiselle Joie": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Maires": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mettez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mettons": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Monsieur Kendray": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Montrez-moi": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Mul": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Notez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Nou": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Observez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Onum Barr": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Paradis": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Parlez Channis": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Parlez-moi": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Partant": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pelorat Joie": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Pensiez-vous": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Physiquement": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pourriez-vous": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Poursuivez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pre": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Prem": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Premiè": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Primo": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Pritche": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Puisqu'il": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Radioactive": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Rends-lui": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Rey": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Ri": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Répondez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "République Korellienne": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Sachez-le": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Salvor Hardi": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Sapristi": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Secon": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Seigneurie": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Sennett Forell": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Seriez-vous": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "So": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Stupide": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Toran Darell": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 2
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 2
+      }
+    ],
+    "score": 6
+  },
+  "Trahison": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Seconde_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Tranto": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Tâchez": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Venez Janov": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Voyezvous": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_et_empire",
+        "frequence": 1,
+        "taille": 1
+      },
+      {
+        "livre": "Terre_et_Fondation",
+        "frequence": 1,
+        "taille": 1
+      }
+    ],
+    "score": 3
+  },
+  "Voyons Sura": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation_foudroyée",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  },
+  "Yate Fulham": {
+    "frequence": 2,
+    "livres": [
+      {
+        "livre": "Fondation",
+        "frequence": 2,
+        "taille": 2
+      }
+    ],
+    "score": 5
+  }
+}
