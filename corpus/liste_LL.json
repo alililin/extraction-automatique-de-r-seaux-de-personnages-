@@ -1,0 +1,161 @@
+[
+  {
+    "nom": "Terminus",
+    "mentions": 202,
+    "variantes": [],
+    "contexte": {
+      "occ": 202,
+      "lieu": 51,
+      "parole": 2
+    }
+  },
+  {
+    "nom": "Trantor",
+    "mentions": 171,
+    "variantes": [],
+    "contexte": {
+      "occ": 171,
+      "lieu": 39,
+      "parole": 4
+    }
+  },
+  {
+    "nom": "Seychelle",
+    "mentions": 102,
+    "variantes": [],
+    "contexte": {
+      "occ": 102,
+      "lieu": 21,
+      "parole": 1
+    }
+  },
+  {
+    "nom": "Kalgan",
+    "mentions": 79,
+    "variantes": [],
+    "contexte": {
+      "occ": 79,
+      "lieu": 30,
+      "parole": 2
+    }
+  },
+  {
+    "nom": "Anacréon",
+    "mentions": 68,
+    "variantes": [],
+    "contexte": {
+      "occ": 68,
+      "lieu": 15
+    }
+  },
+  {
+    "nom": "Comporellon",
+    "mentions": 52,
+    "variantes": [],
+    "contexte": {
+      "occ": 52,
+      "lieu": 25
+    }
+  },
+  {
+    "nom": "Sol",
+    "mentions": 30,
+    "variantes": [],
+    "contexte": {
+      "occ": 30,
+      "lieu": 11
+    }
+  },
+  {
+    "nom": "Aurora",
+    "mentions": 20,
+    "variantes": [],
+    "contexte": {
+      "occ": 20,
+      "lieu": 5
+    }
+  },
+  {
+    "nom": "Korell",
+    "mentions": 15,
+    "variantes": [],
+    "contexte": {
+      "occ": 15,
+      "lieu": 3
+    }
+  },
+  {
+    "nom": "Siwenna",
+    "mentions": 12,
+    "variantes": [],
+    "contexte": {
+      "occ": 12,
+      "lieu": 3
+    }
+  },
+  {
+    "nom": "Néotrantor",
+    "mentions": 11,
+    "variantes": [],
+    "contexte": {
+      "occ": 11,
+      "lieu": 7
+    }
+  },
+  {
+    "nom": "Askone",
+    "mentions": 8,
+    "variantes": [],
+    "contexte": {
+      "occ": 8,
+      "lieu": 3
+    }
+  },
+  {
+    "nom": "Juddee",
+    "mentions": 5,
+    "variantes": [],
+    "contexte": {
+      "occ": 5,
+      "lieu": 1
+    }
+  },
+  {
+    "nom": "Melpomenia",
+    "mentions": 4,
+    "variantes": [],
+    "contexte": {
+      "occ": 4,
+      "lieu": 2
+    }
+  },
+  {
+    "nom": "Gamma d' Andromède",
+    "mentions": 2,
+    "variantes": [
+      "Gamma"
+    ],
+    "contexte": {
+      "occ": 2,
+      "lieu": 1
+    }
+  },
+  {
+    "nom": "Gaïa Trevize",
+    "mentions": 2,
+    "variantes": [],
+    "contexte": {
+      "occ": 2,
+      "lieu": 2
+    }
+  },
+  {
+    "nom": "Horleggor",
+    "mentions": 2,
+    "variantes": [],
+    "contexte": {
+      "occ": 2,
+      "lieu": 1
+    }
+  }
+]

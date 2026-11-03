@@ -1,347 +1,269 @@
+"""
+Nettoyage d'un corpus extrait de PDF (mots coupés, mots collés, tirets).
 
-from pathlib import Path
+Principe : on ne regarde pas les mots un par un. Pour chaque suite de
+fragments séparés par un espace, on cherche la meilleure façon de découper
+la chaîne complète en mots (programmation dynamique, façon "word
+segmentation"). Le score d'un mot vient de deux sources :
+  1. wordfreq (français courant),
+  2. un lexique construit automatiquement sur ton corpus (noms propres,
+     vocabulaire spécifique comme "psychohistoire").
+
+"""
+
+import math
 import re
+from collections import Counter
+from functools import lru_cache
+from pathlib import Path
+
+from wordfreq import zipf_frequency
+
 
 # --------------------------------------------------
-# DOSSIERS
+# PARAMETRES
 # --------------------------------------------------
 
 DOSSIER_BRUT = Path("corpus/txt")
 DOSSIER_PROPRE = Path("corpus/nettoyage")
 
-FICHIER_ANTIDICTIONNAIRE = Path(
-    "ressource/antidictionnaire.txt"
-)
+SEUIL = 3.0            # zipf minimal pour qu'un mot soit "français connu"
+MIN_OCC = 2            # occurrences minimales dans le corpus pour le lexique
+MAX_MOT = 25           # longueur maximale d'un mot dans la segmentation
+MAX_GROUPE = 8         # nombre maximal de fragments traités ensemble
+MARGE = 3.0            # gain minimal de score pour modifier un groupe
+COUT_INCONNU_BASE = 12.0
+COUT_INCONNU_LETTRE = 6.0
+UNE_LETTRE = {"a", "à", "y"}   # seuls mots d'une lettre acceptés
+
+LETTRES = "A-Za-zÀ-ÖØ-öø-ÿŒœ"
+MOT = re.compile(f"[{LETTRES}]+")
+COMPOSE = re.compile(f"[{LETTRES}]+(?:-[{LETTRES}]+)+")
+SUITE = re.compile(f"[{LETTRES}]+(?: [{LETTRES}]+)*")
+
+# Rempli par construire_lexique()
+LEXIQUE = {}
 
 
 # --------------------------------------------------
-# CHARGEMENT DE L'ANTIDICTIONNAIRE
+# FREQUENCES
 # --------------------------------------------------
 
-def charger_antidictionnaire():
+@lru_cache(maxsize=None)
+def zipf(mot):
+    return zipf_frequency(mot, "fr")
+
+
+def mot_francais(mot):
+    """Mot reconnu par wordfreq (minuscules)."""
+    if len(mot) == 1:
+        return mot in UNE_LETTRE
+    return zipf(mot) >= SEUIL
+
+
+def cout_inconnu(longueur):
+    return COUT_INCONNU_BASE + COUT_INCONNU_LETTRE * longueur
+
+
+def cout_mot(mot):
+    """Coût (plus petit = plus plausible) ou None si mot inconnu."""
+    couts = []
+
+    if mot_francais(mot):
+        couts.append((9.0 - zipf(mot)) * math.log(10))
+
+    if mot in LEXIQUE:
+        couts.append(LEXIQUE[mot][1])
+
+    return min(couts) if couts else None
+
+
+# --------------------------------------------------
+# LEXIQUE DU CORPUS
+# --------------------------------------------------
+
+def decomposable(mot):
     """
-    Charge les mots présents dans l'antidictionnaire.
+    Vrai si le mot est probablement deux mots collés (ex. "dela"),
+    donc à ne PAS ajouter au lexique.
     """
+    for i in range(1, len(mot)):
+        a, b = mot[:i], mot[i:]
 
-    mots = set()
+        if len(a) <= 3 and zipf(a) >= 5.0 and mot_francais(b):
+            return True
+        if len(b) <= 3 and zipf(b) >= 5.0 and mot_francais(a):
+            return True
 
-    for ligne in FICHIER_ANTIDICTIONNAIRE.read_text(
-        encoding="utf-8"
-    ).splitlines():
+    return False
 
-        ligne = ligne.strip()
 
-        if not ligne:
+def construire_lexique():
+    compteur = Counter()
+    composes = Counter()
+
+    for fichier in DOSSIER_BRUT.glob("*.txt"):
+        texte = fichier.read_text(encoding="utf-8")
+        compteur.update(m.lower() for m in MOT.findall(texte))
+        composes.update(m.lower() for m in COMPOSE.findall(texte))
+
+    total = sum(compteur.values()) or 1
+    lexique = {}
+
+    # Mots du corpus inconnus de wordfreq (noms propres, termes rares)
+    for mot, n in compteur.items():
+        if n < MIN_OCC or len(mot) < 4:
             continue
-
-        if ligne.startswith("#"):
+        if mot_francais(mot) or decomposable(mot):
             continue
+        lexique[mot] = (mot, math.log(total / n) + 2.0)
 
-        mots.add(ligne.casefold())
+    # Mots composés avec tiret présents dans le corpus :
+    # clé sans tiret -> forme avec tiret ("euxmêmes" -> "eux-mêmes")
+    for compose, n in composes.items():
+        if n < MIN_OCC:
+            continue
+        cle = compose.replace("-", "")
+        lexique[cle] = (compose, math.log(total / n) - 1.0)
 
-    return mots
-
-
-MOTS_VIDES = charger_antidictionnaire()
-
-
-# --------------------------------------------------
-# VERIFICATION D'UN MOT FRANCAIS
-# --------------------------------------------------
-
-def est_mot_francais(mot):
-    """
-    Vérifie si un mot est suffisamment fréquent
-    en français grâce à wordfreq.
-
-    La fréquence Zipf doit être >= 3.0.
-    """
-
-    try:
-        from wordfreq import zipf_frequency
-
-    except ImportError as erreur:
-
-        raise SystemExit(
-            "La bibliothèque wordfreq n'est pas installée.\n"
-            "Installe-la avec : pip install wordfreq"
-        ) from erreur
-
-    return (
-        zipf_frequency(
-            mot.casefold(),
-            "fr"
-        ) >= 3.0
-    )
+    return lexique
 
 
 # --------------------------------------------------
-# APOSTROPHES
+# SEGMENTATION (programmation dynamique)
 # --------------------------------------------------
 
-def corriger_apostrophes(texte):
+def segmenter(chaine):
+    """Meilleur découpage de `chaine` en mots. Renvoie (coût, spans)."""
+    bas = chaine.lower()
+    n = len(chaine)
+
+    meilleur = [math.inf] * (n + 1)
+    precedent = [0] * (n + 1)
+    meilleur[0] = 0.0
+
+    for j in range(1, n + 1):
+        for i in range(max(0, j - MAX_MOT), j):
+            if meilleur[i] == math.inf:
+                continue
+
+            mot = bas[i:j]
+            cout = cout_mot(mot)
+            if cout is None:
+                cout = cout_inconnu(len(mot))
+
+            total = meilleur[i] + cout
+            if total < meilleur[j]:
+                meilleur[j] = total
+                precedent[j] = i
+
+    spans = []
+    j = n
+    while j > 0:
+        i = precedent[j]
+        spans.append((i, j))
+        j = i
+    spans.reverse()
+
+    return meilleur[n], spans
+
+
+def afficher(chaine, i, j):
+    """Texte final d'un morceau (recrée le tiret des composés connus)."""
+    morceau = chaine[i:j]
+    cle = morceau.lower()
+
+    if cle in LEXIQUE and "-" in LEXIQUE[cle][0]:
+        forme = LEXIQUE[cle][0]
+        if morceau[0].isupper():
+            forme = forme[0].upper() + forme[1:]
+        return forme
+
+    return morceau
+
+
+def traiter_groupe(fragments):
+    chaine = "".join(fragments)
+
+    cout_original = 0.0
+    for fragment in fragments:
+        cout = cout_mot(fragment.lower())
+        cout_original += (
+            cout if cout is not None else cout_inconnu(len(fragment))
+        )
+
+    cout_nouveau, spans = segmenter(chaine)
+
+    # On ne modifie que si le gain est net.
+    if cout_nouveau + MARGE < cout_original:
+        return " ".join(afficher(chaine, i, j) for i, j in spans)
+
+    return " ".join(fragments)
+
+
+def traiter_suite(match):
     """
-    Corrige les espaces artificiels autour des apostrophes.
-
-    Exemples :
-
-        j ' aimerais -> j'aimerais
-        qu ' on      -> qu'on
-        d ' un       -> d'un
-        c ' est      -> c'est
+    Une "suite" = fragments séparés par un seul espace, sans ponctuation.
+    On regroupe les fragments voisins dont au moins un est inconnu :
+    deux mots français valides côte à côte ne sont jamais fusionnés.
     """
+    fragments = match.group().split(" ")
+    resultat = []
+    i = 0
 
-    motif_mot = re.compile(
-        r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)*"
-    )
+    while i < len(fragments):
+        groupe = [fragments[i]]
+
+        while (
+            len(groupe) < MAX_GROUPE
+            and i + len(groupe) < len(fragments)
+            and not (
+                mot_francais(groupe[-1].lower())
+                and mot_francais(fragments[i + len(groupe)].lower())
+            )
+        ):
+            groupe.append(fragments[i + len(groupe)])
+
+        if len(groupe) == 1 and mot_francais(groupe[0].lower()):
+            resultat.append(groupe[0])
+        else:
+            resultat.append(traiter_groupe(groupe))
+
+        i += len(groupe)
+
+    return " ".join(resultat)
+
+
+# --------------------------------------------------
+# AUTRES CORRECTIONS
+# --------------------------------------------------
+
+def supprimer_numeros_page(texte):
+    """Supprime les lignes du type '– 17 –' ou '17'."""
     return re.sub(
-        r"([A-Za-zÀ-ÿ]+)\s*['’]\s*([A-Za-zÀ-ÿ]+)",
-        r"\1'\2",
-        texte
+        r"(?m)^[ \t]*[–—-]?[ \t]*\d{1,4}[ \t]*[–—-]?[ \t]*$\n?",
+        "",
+        texte,
     )
 
-
-# --------------------------------------------------
-# MOTS COUPES PAR UN TIRET
-# --------------------------------------------------
 
 def corriger_tirets(texte):
-    """
-    Corrige les mots coupés par un tiret en fin de ligne.
-
-    Exemple :
-
-        inter-
-        galactique
-
-    devient :
-
-        intergalactique
-    """
-
+    """Recolle les mots coupés par un tiret en fin de ligne.
+    Le tiret des composés est rétabli ensuite par la segmentation."""
     return re.sub(
-        r"(?<=[A-Za-zÀ-ÿ])-\s*\n\s*(?=[A-Za-zÀ-ÿ])",
+        rf"(?<=[{LETTRES}])-[ \t]*\n[ \t]*(?=[{LETTRES}])",
         "",
-        texte
-    )
-
-
-# --------------------------------------------------
-# COUPURES DE MOTS
-# --------------------------------------------------
-
-def fusion_possible(gauche, droite):
-    """
-    Détermine si deux fragments séparés par un espace
-                # Une forme avec apostrophe (l'ai, qu'on, c'est...) est
-                # un bloc : ne pas fusionner sa dernière partie au mot suivant.
-                if "'" in mot or "’" in mot:
-                    remplacements.append((debut, fin, mot))
-                    position += 1
-                    continue
-    doivent probablement être fusionnés.
-
-    Exemple :
-
-        éga + l
-        hom + mes
-        marc + hes
-
-    peuvent donner :
-
-        égal
-        hommes
-        marches
-    """
-
-    gauche_min = gauche.casefold()
-    droite_min = droite.casefold()
-
-    candidat = gauche + droite
-    candidat_min = candidat.casefold()
-
-    # --------------------------------------------------
-    # Cas où les deux fragments sont des mots indépendants
-    # --------------------------------------------------
-
-    gauche_est_mot = est_mot_francais(gauche)
-    droite_est_mot = est_mot_francais(droite)
-
-    candidat_est_mot = est_mot_francais(candidat)
-
-    # Si les deux morceaux sont de vrais mots français
-    # et que leur concaténation n'apporte rien,
-    # on garde l'espace.
-    if gauche_est_mot and droite_est_mot:
-        return False
-
-    # --------------------------------------------------
-    # Le résultat doit être un mot français
-    # --------------------------------------------------
-
-    if not candidat_est_mot:
-        return False
-
-    # --------------------------------------------------
-    # Antidictionnaire
-    #
-    # Exemple :
-    #
-    # "le plus"
-    #
-    # ne doit pas devenir "leplus".
-    # --------------------------------------------------
-
-    if (
-        gauche_min in MOTS_VIDES
-        and droite_min in MOTS_VIDES
-    ):
-        return False
-
-    # --------------------------------------------------
-    # Fragments d'une seule lettre
-    # --------------------------------------------------
-
-    if len(gauche) == 1 or len(droite) == 1:
-
-        # Certains mots d'une lettre doivent rester
-        # indépendants.
-        mots_courts = {
-            "a",
-            "à",
-            "y",
-            "o",
-            "e"
-        }
-
-        if gauche_min in mots_courts:
-            return False
-
-        if droite_min in mots_courts:
-
-            # Exemple :
-            #
-            # M a -> Ma
-            #
-            # Une majuscule suivie de "a" peut être
-            # une coupure artificielle.
-            if (
-                len(gauche) == 1
-                and gauche.isupper()
-            ):
-                return True
-
-            return False
-
-        return True
-
-    # --------------------------------------------------
-    # Cas général
-    # --------------------------------------------------
-
-    return True
-
-
-def corriger_coupures(texte):
-    """
-    Corrige les mots coupés artificiellement par l'extraction PDF.
-
-    Exemples :
-
-        éga l       -> égal
-        hom mes     -> hommes
-        marc hes    -> marches
-        éner gique  -> énergique
-        fa ire      -> faire
-        cont inue   -> continue
-        Trev ize    -> Trevize
-    """
-
-    # Normalisation des espaces
-    texte = re.sub(
-        r"[ \t]+",
-        " ",
-        texte
-    )
-
-    # --------------------------------------------------
-    # Cas particulier :
-    #
-    # c'es t -> c'est
-    #
-    # Après la correction des apostrophes,
-    # il peut rester une lettre séparée.
-    # --------------------------------------------------
-
-    def corriger_apostrophe_coupee(match):
-
-        gauche = match.group(1)
-        droite = match.group(2)
-
-        candidat = gauche + droite
-
-        if est_mot_francais(candidat):
-            return candidat
-
-        return match.group(0)
-
-    texte = re.sub(
-        r"([A-Za-zÀ-ÿ]+['’][A-Za-zÀ-ÿ]+)\s+([tn])\b",
-        corriger_apostrophe_coupee,
         texte,
-        flags=re.IGNORECASE,
     )
 
-    # --------------------------------------------------
-    # Recherche de deux fragments consécutifs
-    # --------------------------------------------------
 
-    motif_mot = re.compile(
-        r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)*"
+def corriger_apostrophes(texte):
+    """Supprime les espaces artificiels autour des apostrophes."""
+    return re.sub(
+        rf"([{LETTRES}]+)\s+(['’])\s*([{LETTRES}]+)",
+        r"\1\2\3",
+        texte,
     )
-    mots = list(motif_mot.finditer(texte))
-    remplacements = []
-    position = 0
-
-    while position < len(mots):
-        debut = mots[position].start()
-        fin = mots[position].end()
-        mot = mots[position].group()
-        suivant = position + 1
-
-        # Une contraction complète ne doit pas absorber le mot suivant.
-        if "'" in mot or "’" in mot:
-            remplacements.append((debut, fin, mot))
-            position += 1
-            continue
-
-        while suivant < len(mots):
-            separation = texte[fin:mots[suivant].start()]
-            prochain_mot = mots[suivant].group()
-
-            if not separation or not separation.isspace():
-                break
-
-            if not fusion_possible(mot, prochain_mot):
-                break
-
-            mot += prochain_mot
-            fin = mots[suivant].end()
-            suivant += 1
-
-        remplacements.append((debut, fin, mot))
-        position = suivant if suivant > position + 1 else position + 1
-
-    resultat = []
-    debut_texte = 0
-
-    for debut, fin, mot in remplacements:
-        resultat.append(texte[debut_texte:debut])
-        resultat.append(mot)
-        debut_texte = fin
-
-    resultat.append(texte[debut_texte:])
-    return "".join(resultat)
 
 
 # --------------------------------------------------
@@ -349,49 +271,17 @@ def corriger_coupures(texte):
 # --------------------------------------------------
 
 def nettoyer_texte(texte):
-    """
-    Applique toutes les étapes de nettoyage.
-    """
+    texte = texte.replace("\r\n", "\n").replace("\r", "\n")
 
-    # Normalisation des retours à la ligne
-    texte = texte.replace(
-        "\r\n",
-        "\n"
-    )
+    texte = supprimer_numeros_page(texte)
+    texte = corriger_tirets(texte)
+    texte = corriger_apostrophes(texte)
 
-    texte = texte.replace(
-        "\r",
-        "\n"
-    )
+    texte = re.sub(r"[ \t]+", " ", texte)
+    texte = SUITE.sub(traiter_suite, texte)
 
-    # 1. Mots coupés par un tiret
-    texte = corriger_tirets(
-        texte
-    )
-
-    # 2. Apostrophes
-    texte = corriger_apostrophes(
-        texte
-    )
-
-    # 3. Mots coupés par l'extraction PDF
-    texte = corriger_coupures(
-        texte
-    )
-
-    # 4. Espaces multiples
-    texte = re.sub(
-        r"[ \t]+",
-        " ",
-        texte
-    )
-
-    # 5. Trop nombreux retours à la ligne
-    texte = re.sub(
-        r"\n{3,}",
-        "\n\n",
-        texte
-    )
+    texte = re.sub(r"[ \t]+\n", "\n", texte)
+    texte = re.sub(r"\n{3,}", "\n\n", texte)
 
     return texte.strip() + "\n"
 
@@ -401,58 +291,33 @@ def nettoyer_texte(texte):
 # --------------------------------------------------
 
 def main():
+    global LEXIQUE
 
-    # Création du dossier de sortie
-    DOSSIER_PROPRE.mkdir(
-        parents=True,
-        exist_ok=True
-    )
+    if not DOSSIER_BRUT.exists():
+        raise SystemExit(f"Dossier source introuvable : {DOSSIER_BRUT}")
 
-    # Recherche des textes bruts
-    fichiers = sorted(
-        DOSSIER_BRUT.glob("*.txt")
-    )
+    fichiers = sorted(DOSSIER_BRUT.glob("*.txt"))
+    if not fichiers:
+        raise SystemExit(f"Aucun fichier .txt trouvé dans {DOSSIER_BRUT}")
 
-    print(
-        f"Fichiers trouves : {len(fichiers)}"
-    )
+    DOSSIER_PROPRE.mkdir(parents=True, exist_ok=True)
 
-    print(
-        f"Mots dans l'antidictionnaire : "
-        f"{len(MOTS_VIDES)}"
-    )
-
-    # --------------------------------------------------
-    # Traitement de chaque livre
-    # --------------------------------------------------
+    print(f"Fichiers trouvés : {len(fichiers)}")
+    print("Construction du lexique du corpus...")
+    LEXIQUE = construire_lexique()
+    print(f"Entrées dans le lexique : {len(LEXIQUE)}")
 
     for fichier in fichiers:
+        print(f"Nettoyage : {fichier.name}")
 
-        print(
-            f"Nettoyage : {fichier.name}"
-        )
+        texte = fichier.read_text(encoding="utf-8")
+        propre = nettoyer_texte(texte)
 
-        texte = fichier.read_text(
-            encoding="utf-8"
-        )
+        sortie = DOSSIER_PROPRE / fichier.name
+        sortie.write_text(propre, encoding="utf-8")
+        print(f"  -> {sortie}")
 
-        texte_nettoye = nettoyer_texte(
-            texte
-        )
-
-        sortie = (
-            DOSSIER_PROPRE
-            / fichier.name
-        )
-
-        sortie.write_text(
-            texte_nettoye,
-            encoding="utf-8"
-        )
-
-        print(
-            f"  -> {sortie}"
-        )
+    print("Nettoyage terminé.")
 
 
 if __name__ == "__main__":

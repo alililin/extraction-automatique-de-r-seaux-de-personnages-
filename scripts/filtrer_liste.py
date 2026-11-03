@@ -1,122 +1,88 @@
 from pathlib import Path
 import json
 
-from antidictionnaire import MOTS_VIDES
+# Réutilise la logique de antidictionnaire.py : elle gère "l'", "qu'",
+# "peut-être", "aujourd'hui"... (le fichier doit être dans le même dossier)
+from antidictionnaire import est_mot_vide
 
 
-SOURCE_LISTE = Path(
-    "corpus/liste_L.json"
-)
+SOURCE_LISTE = Path("corpus/liste_L.json")
+SORTIE_LISTE = Path("corpus/liste_L_filtre.json")
+SORTIE_LISTE_TEXTE = Path("corpus/liste_L_filtre.txt")
 
-SORTIE_LISTE = Path(
-    "corpus/liste_L_filtre.json"
-)
+# Part minimale des occurrences écrites avec majuscule.
+# "Seldon" ~ 1.0 ; "Murmura", "Quelquefois" ~ 0.0 (début de phrase seulement).
+# Pour LL (Empire, Galaxie...) on pourra descendre ce seuil.
+RATIO_MIN = 0.5
 
-SORTIE_LISTE_TEXTE = Path(
-    "corpus/liste_L_filtre.txt"
-)
-
-
-PREFIXES_CONTRACTION = (
-    "c'",
-    "d'",
-    "j'",
-    "l'",
-    "m'",
-    "n'",
-    "qu'",
-    "s'",
-    "t'",
-    "ce n'",
-    "cen'",
-    "je ",
-    "il ",
-    "elle ",
-    "on ",
-    "nous ",
-    "vous ",
-)
+# False : tout mot vide (même au milieu) élimine le candidat.
+# True  : on tolère les particules au milieu ("Fondation et Empire").
+GARDER_PARTICULES = False
+PARTICULES = {"de", "du", "des", "la", "le", "les", "l'", "d'", "et"}
 
 
-def est_bruit(candidat):
-
+def est_bruit(candidat, informations):
     tokens = candidat.split()
 
     if not tokens:
         return True
 
-    candidat_normalise = candidat.casefold()
-
-    premier_token = tokens[0].casefold()
-
-    # Candidat entièrement présent dans l'antidictionnaire
-    if candidat_normalise in MOTS_VIDES:
-        return True
-
-    # Premier mot fonctionnel
-    if premier_token in MOTS_VIDES:
-        return True
-
-    # Un mot fonctionnel dans le reste du candidat
-    if any(
-        token.casefold() in MOTS_VIDES
-        for token in tokens[1:]
-    ):
-        return True
-
-    # Contractions / débuts de phrases
-    if candidat_normalise.startswith(
-        PREFIXES_CONTRACTION
-    ):
-        return True
-
-    # Acronymes / mots entièrement en majuscules
+    # Acronymes / mots entièrement en majuscules ("II", "A")
     if candidat.isupper():
         return True
 
     # Candidats contenant un nombre
-    if any(
-        char.isdigit()
-        for char in candidat
-    ):
+    if any(char.isdigit() for char in candidat):
+        return True
+
+    # Mot trop souvent en minuscule : majuscule de début de phrase
+    if informations.get("ratio_majuscule", 1.0) < RATIO_MIN:
+        return True
+
+    # Mots vides (premier, milieu ou dernier mot)
+    dernier = len(tokens) - 1
+
+    for position, token in enumerate(tokens):
+        if not est_mot_vide(token):
+            continue
+
+        if (
+            GARDER_PARTICULES
+            and 0 < position < dernier
+            and token.casefold() in PARTICULES
+        ):
+            continue
+
         return True
 
     return False
 
 
 def main():
-
-    liste = json.loads(
-        SOURCE_LISTE.read_text(
-            encoding="utf-8"
-        )
-    )
+    liste = json.loads(SOURCE_LISTE.read_text(encoding="utf-8"))
 
     liste_filtree = {
         candidat: informations
-        for candidat, informations
-        in liste.items()
-        if not est_bruit(candidat)
+        for candidat, informations in liste.items()
+        if not est_bruit(candidat, informations)
     }
 
     SORTIE_LISTE.write_text(
-        json.dumps(
-            liste_filtree,
-            ensure_ascii=False,
-            indent=2
-        ),
-        encoding="utf-8"
+        json.dumps(liste_filtree, ensure_ascii=False, indent=2),
+        encoding="utf-8",
     )
 
     SORTIE_LISTE_TEXTE.write_text(
-        "\n".join(liste_filtree) + "\n",
-        encoding="utf-8"
+        "".join(
+            f"{candidat}\t{infos['frequence']}\n"
+            for candidat, infos in liste_filtree.items()
+        ),
+        encoding="utf-8",
     )
 
     print(
-        f"Liste L filtree : "
-        f"{SORTIE_LISTE} "
-        f"({len(liste_filtree)} candidats)"
+        f"Liste L filtrée : {SORTIE_LISTE} "
+        f"({len(liste)} -> {len(liste_filtree)} candidats)"
     )
 
 
